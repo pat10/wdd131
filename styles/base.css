@@ -54,8 +54,11 @@ main {
 	margin: 0 auto;
 }
 
+main img {
+	max-width: 300px;
+}
+
 #family {
-	max-width: 600px;
 	margin: 1.5em auto;
 	display: block;
 }
@@ -81,6 +84,10 @@ main {
 		column-gap: 10px;
 	}
 
+	main img {
+		max-width: none;
+	}
+
 	#profile-pic {
 		float: left;
 		margin: 0 1em 0 0;
@@ -91,5 +98,9 @@ main {
 		display: block;
 		text-align: center;
 		max-width: 250px;
+	}
+
+	#family {
+		max-width: 600px;
 	}
 }
