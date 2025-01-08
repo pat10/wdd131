@@ -11,8 +11,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: Oswald, Arial, serif;
-	margin: 10px 0;
-	color: #748B78;
+	margin: 1em 0;
+	color: #222825;
 }
 
 h1 {
@@ -58,6 +58,18 @@ main img {
 	max-width: 300px;
 }
 
+main a, main a:visited, main a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #222825;
+}
+
+
+main ul {
+	margin-left: 1.2em;
+}
+
+
 #family {
 	margin: 1.5em auto;
 	display: block;
@@ -90,8 +102,8 @@ main img {
 
 	#profile-pic {
 		float: left;
-		margin: 0 1em 0 0;
-		max-width: 200px;
+		margin: 0 1em 1em 0;
+		max-width: 250px;
 	}
 
 	#beat-witch-cover {
