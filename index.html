@@ -10,11 +10,11 @@
 	<title>WDD 131 - Dynamic Web Fundamentals - Robert Patten</title>
 
 	<link rel="stylesheet" href="styles/base.css">
-
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	
+	<script src="scripts/getdates.js" defer></script>
 </head>
 <body>
 	<header>
@@ -31,17 +31,25 @@
 
 	<main>
 		<section class="card">
-			<h3>About me</h3>
+			<h2>About me</h2>
+			<img src="images/2024-profile-cropped.jpg" alt="profile pic" id="profile-pic">
+			<h3>Who am I?</h3>
 			<p>I'm Robert Patten. I was born and raised in central California and am the oldest of five children. My dad was an optometrist, and my mom was a music teacher. I served a Spanish-speaking mission in New Jersey, United States. I have a wife and two children. Coding is one of my creative outlets. The others are music and creative writing.</p>
+			<h3>Why I teach</h3>
+			<p>I am an online instructor for BYU Pathway, and the best part about that is seeing students overcome obstacles through faith and perserverance. They inspire me to be better.</p> 
+			<p>I hope this semester is a great one for you! Don't give up, and you will learn so much and get a good grade in this class.</p>
+			<img src="images/family.jpg" alt="my family" id="family">
+
 		</section>
 		<section class="card">
-			<h3>Text adventures</h3>
+			<h2>Text adventures</h2>
+			<img src="images/beat-witch-cover.jpg" alt="beat witch cover" id="beat-witch-cover">
 			<p>In what little spare time I have, I write text adventures (interactive fiction). If I include music, I'm using all of my creative outlets in a single project! My latest is a little horror piece called <a href="https://html-classic.itch.zone/html/9158828/Release/play.html" target="_blank">Beat Witch</a>. In the works are text adventures called <em>Astronaut Unwritten</em>, <em>Radiance: A Tale of Possession</em>, and <em>Pacifist Battle Monk!</em>.</p>
 		</section>
 	</main>
 	
 	<footer>
-		<p>&copy; <span id="currentyear"></span> Robert Patten</p>
+		<p>&copy; <span id="currentyear"></span> Robert Patten, United States</p>
 		<p id="lastModified"></p> 
 	</footer>
 	
