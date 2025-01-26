@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, serif;
+	margin: 0 2em;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Oswald, Arial, serif;
+	margin: 1em 0;
+	color: #222825;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+header, footer {
+	background: #1D1E18;
+}
+
+header {
+	position: relative;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	color: #F8F8FF;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-weight: bold;
+}
+
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+ 	position: absolute;
+	right: 10px;
+	top: 5px;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.open a {
+	display: block;
+}
+
+.active::before {
+	content: "📍";  /* just a wayfinding symbol for the user -- use this later */
+}
+
+p {
+	margin: 10px 0;
+}
+
+footer {
+	color: #F8F8FF;
+	text-align: center;
+	padding: .25em;
+}
+
+.temple-pics {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap:2em;
+	margin-bottom:2em;
+}
+
+.temple-pics img {
+	width: 100%;
+}
+
+main a, main a:visited, main a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: #222825;
+}
