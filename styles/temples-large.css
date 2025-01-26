@@ -36,6 +36,13 @@
 		max-width: none;
 	}
 
+	.temple-pics {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 2em;
+		margin-bottom: 2em;
+	}
+
 	.temple-pics img {
 		max-width:300px;
 	}

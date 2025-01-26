@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	text-align: center;
 	color: white;
+	margin: 0 auto;
+	padding: 10px 0;
 }
 
 header, footer {
@@ -103,11 +105,6 @@ footer {
 .temple-pics {
 	max-width: 1200px;
 	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap:2em;
-	margin-bottom:2em;
 }
 
 .temple-pics img {
